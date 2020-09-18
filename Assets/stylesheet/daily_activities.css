@@ -1,0 +1,65 @@
+/*RESET ALL ELEMENTS*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+/*VARIABLES*/
+
+/*styles*/
+p {
+  font-weight: bold;
+}
+body {
+  background-image: url("../images/Kantor.png");
+  background-size: cover;
+  padding: 3vw;
+  background-color: red;
+  text-align: center;
+}
+h1 {
+  line-height: 3vw;
+  color: white;
+}
+.container {
+    border-radius: 20px;
+}
+.container {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  background-color: rgba(255,255,255,0.9);
+
+}
+table {
+  border-collapse: collapse;
+  font-family: monospace;
+}
+.first {
+  background-color: rgb(100,100,190);
+  color: white;
+}
+th {
+  background-color: rgb(20,40,60);
+  color: white;
+  font-family: sans-serif;
+}
+td, th {
+  padding: 1.5vw;
+  border: 1vw blue;
+  border-style: hidden;
+}
+#top-left {
+  border-top-left-radius: 20px;
+}
+#top-right {
+  border-top-right-radius: 20px;
+}
+
+td:hover {
+  color: cyan;
+  background-color: rgba(inherit,0.6);
+  box-shadow: 5px 5px 0.3vw rgb(100,100,100);
+  z-index: 10;
+}
