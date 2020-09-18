@@ -40,6 +40,9 @@ table {
   background-color: rgb(100,100,190);
   color: white;
 }
+.second {
+  background-color: white;
+}
 th {
   background-color: rgb(20,40,60);
   color: white;
