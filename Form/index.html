@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Form Ku</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+		<style>
+			* {
+				font-family: verdana;
+			}
+			body {
+				background-color: rgb(255,238,134);
+			}
+			.form {
+				display: flex;
+				flex-direction: column;
+				margin: auto;
+				width: 60%;
+				background-color: snow;
+				padding: 10px;
+			}
+			.form h1 {
+				text-align: center;
+				margin: 0;
+			}
+			.masuk {
+				width: 100%;
+				height: 30px;
+				border: 1px solid rgb(150,150,150);
+				border-radius: 5px;
+				margin: 10px 0 12px 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="form">
+				<h1>Please fill this Form</h1>
+				<hr>
+				<form method="POST" action"lol.php">
+					<label for="nama">
+						Nama: <br> 
+						<input class="masuk" type="text" name="nama" placeholder="Edbert">
+					</label><br>
+					<label for="umur">
+						Umur: <br>
+						<input class="masuk" type="number" name="umur">
+					</label><br>
+					<label for="ulangtahun">
+						TTL: <br>
+						<input class="masuk" type="date" name="ulangtahun">
+					</label> <br>
+					<label for="email">
+						Email <br>
+						<input class="masuk" type="email" name="email">
+					</label> <br>
+					<label for="telp">
+						No. Telp <br>
+						<input class="masuk" type="tel" name="telp">
+					</label> <br>
+					<label for="password">
+						password: <br>
+						<input class="masuk" type="password" name="password">
+					</label><br>
+					<label for="gender">
+						Jenis Kelamin: <br>
+						<input type="radio" name="gender" value="pria"> Pria
+						<input type="radio" name="gender" value="wanita"> Wanita
+					</label><br>
+					<label for="list">
+						Apa yang kamu punya? <br>
+						<input type="checkbox" name="list" value="PR"> PR
+						<input type="checkbox" name="list" value="Ujian"> Ujian
+						<input type="checkbox" name="list" value="Pacar"> Pacar
+					</label><br>
+					<label for="foto">
+						file:
+						<input class="masuk" type="file" name="foto">
+					</label><br>
+					<label for="submit">
+						<input type="submit" value="submit">
+					</label>
+					<label for="reset">
+						<input type="reset" value="reset">
+					</label>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
